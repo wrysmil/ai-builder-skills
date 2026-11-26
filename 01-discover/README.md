@@ -17,7 +17,7 @@
 
 ## 产出物
 
-- 一份带编号台账的《开工前需求痛点分析》：证据（E）、痛点（P）、一期需求（R）互相追溯，附验收指标与开工建议（可开工 / 先试点 / 先验证 / 暂缓）。报告骨架见 [`analyze-prebuild-needs/references/kickoff-report.md`](analyze-prebuild-needs/references/kickoff-report.md)。
+- 一份带编号台账的《开工前需求分析》：证据（E）、痛点（P）、业务能力（C）、一期需求（R）互相追溯，附验收指标与开工建议（可开工 / 先试点 / 先验证 / 暂缓）。报告骨架见 [`analyze-prebuild-needs/references/kickoff-report.md`](analyze-prebuild-needs/references/kickoff-report.md)。只要底座选型时，交付候选对比和逐项覆盖证据，格式见同一模板的「仅找底座时的紧凑输出格式」。
 - 一份写满 20 条以上原始访谈原话的 md 文件，原话可追溯，不是你的转述和概括。
 - 一份能被证伪的需求假设：写成"如果……那么……"的形式，并且明确什么结果会推翻它。
 - 明确的用户画像：谁、在什么场景、多久遇到一次、现在用什么办法凑合。
@@ -27,7 +27,7 @@
 
 | 技能 | 什么时候用它 |
 | --- | --- |
-| [`analyze-prebuild-needs`](analyze-prebuild-needs/) | 新系统 / 内部工具 / 平台立项或大改造仍在调研期，要把提议还原成业务问题并给出开工建议时 |
+| [`analyze-prebuild-needs`](analyze-prebuild-needs/) | 新系统、内部工具或平台立项，要验证业务问题与一期范围，或要根据需求主动找开源底座、核验指定平台时 |
 | [`pain-point-discovery`](pain-point-discovery/) | 有人说"这个需求很痛"、你准备开工但拿不出付费证据时 |
 | [`brainstorming`](brainstorming/) | 想法还很模糊、需要发散和澄清时 —— **任何创造性工作的硬性前置门槛** |
 | [`project-planner`](project-planner/) | 想法已经清楚，要转成提案 / Issue / 缺陷报告时 |

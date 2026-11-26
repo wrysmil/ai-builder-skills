@@ -123,7 +123,7 @@ ai-builder-skills/
 
 | 技能 | 用途 |
 | --- | --- |
-| [`analyze-prebuild-needs`](01-discover/analyze-prebuild-needs/) | **系统级开工前分析**：把系统提议还原成业务问题，证据台账 → 痛点清单 → 一期范围 → 开源底座复用评估 → 开工建议 |
+| [`analyze-prebuild-needs`](01-discover/analyze-prebuild-needs/) | **系统级开工前分析**：把系统提议还原成业务问题，证据台账 → 痛点清单 → 一期范围 → 开源底座复用评估 → 开工建议；也可直接说「先找开源底座」进入候选检索与逐项核验 |
 | [`pain-point-discovery`](01-discover/pain-point-discovery/) | 用户访谈、痛点真假鉴别、JTBD —— 把"朋友都说好"变成可证伪的证据 |
 | [`brainstorming`](01-discover/brainstorming/) | 实现前的需求澄清与方案发散，**动手前的硬性门槛** |
 | [`project-planner`](01-discover/project-planner/) | 把模糊想法归类为提案、Issue 或缺陷报告 |
