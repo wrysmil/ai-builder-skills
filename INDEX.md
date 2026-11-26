@@ -102,7 +102,7 @@
 
 | 技能 | 别名 / 备注 | 触发场景 |
 | --- | --- | --- |
-| [`01-discover/analyze-prebuild-needs`](01-discover/analyze-prebuild-needs/SKILL.md) | [报告模板](01-discover/analyze-prebuild-needs/references/kickoff-report.md) · [底座检索与核验手册](01-discover/analyze-prebuild-needs/references/foundation-research.md) | 系统立项、一期范围、先找开源底座或核验指定平台，按证据给开工建议 |
+| [`01-discover/analyze-prebuild-needs`](01-discover/analyze-prebuild-needs/SKILL.md) | [报告模板](01-discover/analyze-prebuild-needs/references/kickoff-report.md) · [底座检索与核验手册](01-discover/analyze-prebuild-needs/references/foundation-research.md) | 系统立项四步确认，先判断品类和搜开源候选，再拆解能力、对照底座、沉淀方案 |
 | [`01-discover/pain-point-discovery`](01-discover/pain-point-discovery/SKILL.md) | **新增** | 判断痛点真伪、设计访谈、承诺阶梯、礼宾测试、写失败判据 |
 | [`01-discover/brainstorming`](01-discover/brainstorming/SKILL.md) | `brainstorming` | 任何创造性工作之前，先探清意图、需求与设计 |
 | [`01-discover/project-planner`](01-discover/project-planner/SKILL.md) | 市场 slug `project-planner` | 「提个 bug」「我有个想法」「规划这个功能」、大功能拆阶段 |

@@ -1,4 +1,4 @@
 interface:
   display_name: "开工前需求分析与底座评估"
-  short_description: "核验业务需求与一期范围，按用例比较开源底座，给出开工建议"
-  default_prompt: "用 $analyze-prebuild-needs 梳理业务证据和一期用例。若涉及底座选型，按需求检索候选、逐项核验覆盖和缺口，再给出开工建议。"
+  short_description: "分步判断品类、拆解能力、对照底座、沉淀方案，每步由用户确认"
+  default_prompt: "用 $analyze-prebuild-needs 做开工前分析。先判断主品类和参考品类，搜索开源候选并说明入选理由。给出第一步结果，等我确认后再拆解能力。"
