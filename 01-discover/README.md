@@ -17,6 +17,7 @@
 
 ## 产出物
 
+- 完整立项保留一份[开工阶段记录](product-kickoff/templates/stage-record-template.md)，串起访谈前业务预研、首访、候选对照回访、范围确认、底座核验与评审进度。
 - 一份《开工方案与 PRD》Markdown 文件，包含可追溯的证据、痛点、业务能力、一期需求和验收标准。交付前由子 Agent 独立查漏并补写，按评审后的 PRD 另做交互原型。见 [开工报告模板](product-kickoff/references/kickoff-report.md)及[独立 PRD 审查](product-kickoff/references/prd-review.md)。也支持单独交付底座对比、PRD 或带联动旁注的 Web / APP / H5 原型。
 - 一份写满 20 条以上原始访谈原话的 md 文件，原话可追溯，不是你的转述和概括。
 - 一份能被证伪的需求假设：写成"如果……那么……"的形式，并且明确什么结果会推翻它。

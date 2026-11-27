@@ -123,7 +123,7 @@ ai-builder-skills/
 
 | 技能 | 用途 |
 | --- | --- |
-| [`product-kickoff`](01-discover/product-kickoff/) | **产品开工与原型评审**。按四阶段确认业务问题、一期范围、开源底座和开工条件，交付开工方案与 PRD。也可单独找底座、写 PRD 或制作带联动旁注的 Web / APP / H5 原型。 |
+| [`product-kickoff`](01-discover/product-kickoff/) | **产品开工与原型评审**。访谈前预研人工业务，结合开源候选回访查漏，分阶段记录一期范围、底座评估和开工条件，交付开工方案与 PRD。也可单独找底座、写 PRD 或制作带联动旁注的 Web / APP / H5 原型。 |
 | [`pain-point-discovery`](01-discover/pain-point-discovery/) | 用户访谈、痛点真假鉴别、JTBD —— 把"朋友都说好"变成可证伪的证据 |
 | [`brainstorming`](01-discover/brainstorming/) | 实现前的需求澄清与方案发散，**动手前的硬性门槛** |
 | [`project-planner`](01-discover/project-planner/) | 把模糊想法归类为提案、Issue 或缺陷报告 |

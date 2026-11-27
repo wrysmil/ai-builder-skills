@@ -102,7 +102,7 @@
 
 | 技能 | 别名 / 备注 | 触发场景 |
 | --- | --- | --- |
-| [`01-discover/product-kickoff`](01-discover/product-kickoff/SKILL.md) | [报告模板](01-discover/product-kickoff/references/kickoff-report.md) · [原型评审规范](01-discover/product-kickoff/references/prototype-review.md) | 系统立项四阶段确认、开源底座检索与核验、编写 PRD、需求转 Web / APP / H5 交互原型 |
+| [`01-discover/product-kickoff`](01-discover/product-kickoff/SKILL.md) | [业务预研与访谈](01-discover/product-kickoff/references/business-discovery.md) · [报告模板](01-discover/product-kickoff/references/kickoff-report.md) · [原型评审规范](01-discover/product-kickoff/references/prototype-review.md) | 系统立项、候选对照回访、分阶段留档、底座核验、PRD 和 Web / APP / H5 交互原型 |
 | [`01-discover/pain-point-discovery`](01-discover/pain-point-discovery/SKILL.md) | **新增** | 判断痛点真伪、设计访谈、承诺阶梯、礼宾测试、写失败判据 |
 | [`01-discover/brainstorming`](01-discover/brainstorming/SKILL.md) | `brainstorming` | 任何创造性工作之前，先探清意图、需求与设计 |
 | [`01-discover/project-planner`](01-discover/project-planner/SKILL.md) | 市场 slug `project-planner` | 「提个 bug」「我有个想法」「规划这个功能」、大功能拆阶段 |
