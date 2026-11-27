@@ -1,4 +1,4 @@
 interface:
   display_name: "产品开工与原型评审"
   short_description: "沿用开工分析四阶段，产出可追溯的 PRD 和带联动旁注的交互原型"
-  default_prompt: "用 $product-kickoff 做开工前分析。先判断品类和筛选开源候选，等我确认后再拆解一期需求。定稿时按原七节结构交付 PRD，并为关键页面做旁注式原型。"
+  default_prompt: "用 $product-kickoff 做开工前分析。先判断品类和筛选开源候选，等我确认后再拆解一期需求。交付前派子 Agent 独立查漏并补写七节 Markdown PRD。先交 PRD，经我确认后再为关键页面做旁注式原型。"
