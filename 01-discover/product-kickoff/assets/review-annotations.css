@@ -1,0 +1,64 @@
+/* 评审外层。业务界面的视觉样式由终端模板决定。 */
+.review-shell {
+  --review-paper: #fffbeb;
+  --review-card: #fffdf4;
+  --review-selected: #ffebaa;
+  --review-border: #e4cf8e;
+  --review-ink: #462c16;
+  --review-number: #8d4908;
+  --review-line: #2455b5;
+  --review-muted: #765635;
+  grid-template-columns: minmax(0, 1fr) clamp(280px, 20vw, 420px);
+  min-width: 0;
+}
+body:has(> .workspace.review-shell) { min-width: 0; padding: 12px; overflow: hidden; }
+.workspace.review-shell { width: 100%; height: calc(100dvh - 24px); gap: 0; }
+body:has(> .workspace.review-shell) > .editbar { left: 14px; right: auto; text-align: left; }
+body:has(> .workspace.review-shell) .edit-tools { left: 0; right: auto; }
+.review-shell #requirements-pane {
+  background: var(--review-paper);
+  border-left: 1px solid var(--review-border);
+  padding-inline: 16px;
+  color: var(--review-ink);
+}
+.review-shell .requirements-title { color: var(--review-ink); border-color: var(--review-border); }
+.review-shell #requirements-subtitle { color: var(--review-muted); }
+.review-annotations-toggle {
+  align-self: start; flex-shrink: 0; border: 1px solid var(--review-border); border-radius: 6px;
+  color: var(--review-ink); background: var(--review-card); padding: 6px 8px; font: inherit;
+  font-size: 12px; cursor: pointer;
+}
+.review-annotations-toggle:focus-visible, .review-jump:focus-visible {
+  outline: 2px solid var(--review-line); outline-offset: 2px;
+}
+.review-intro { margin: 0 0 12px; color: var(--review-muted); font-size: 12px; }
+.review-card {
+  background: var(--review-card); border: 1px solid var(--review-border); border-radius: 8px;
+  padding: 12px; margin: 0 0 10px; color: var(--review-ink); font-size: 13px; line-height: 1.55;
+}
+.review-card[data-review-active] { background: var(--review-selected); }
+.review-card h3, .review-card p { margin: 0; }
+.review-card p + p { margin-top: 4px; }
+.review-jump {
+  display: flex; align-items: center; gap: 8px; padding: 0; margin: 0 0 6px; width: 100%;
+  background: none; border: 0; color: inherit; text-align: left; cursor: pointer; font: inherit; font-weight: 700;
+}
+.review-number {
+  display: inline-grid; flex: none; width: 21px; height: 21px; place-items: center;
+  border-radius: 50%; background: var(--review-number); color: white; font-size: 11px;
+}
+.review-more { font-size: 13px; margin-block: 12px; }
+.review-more summary { cursor: pointer; font-weight: 650; padding-block: 6px; }
+.review-more .spec-block, .review-more .spec-section { overflow-wrap: anywhere; }
+[data-review-target][data-review-active] { outline: 2px solid var(--review-line); outline-offset: -2px; }
+.review-overlay { position: fixed; z-index: 9; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.review-overlay[hidden] { display: none; }
+@media (max-width: 900px) {
+  .review-shell { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1.25fr) minmax(0, 1fr); }
+  .review-shell #requirements-pane { border-left: 0; border-top: 1px solid var(--review-border); padding: 8px 12px; }
+  .app-shell.review-shell .workspace { grid-template-columns: minmax(0, 1fr); }
+  .app-shell.review-shell .sidebar { display: none; }
+  .workspace.review-shell .prototype-pane { padding: 0; }
+  .review-overlay { display: none; }
+  .review-annotations-toggle { display: none; }
+}

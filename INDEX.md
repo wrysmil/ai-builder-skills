@@ -13,7 +13,7 @@
 
 | 你的处境 | 用哪个 |
 | --- | --- |
-| 新系统 / 内部工具立项，开工前要摸清业务现状、一期范围、能不能复用开源底座 | [`01-discover/analyze-prebuild-needs`](01-discover/analyze-prebuild-needs/SKILL.md) |
+| 新系统 / 内部工具立项，开工前要摸清业务现状、一期范围、能不能复用开源底座 | [`01-discover/product-kickoff`](01-discover/product-kickoff/SKILL.md) |
 | 「朋友都说好」「8 个人都说会用」 | [`01-discover/pain-point-discovery`](01-discover/pain-point-discovery/SKILL.md) |
 | 要设计用户访谈提纲 / 做礼宾测试 | [`01-discover/pain-point-discovery`](01-discover/pain-point-discovery/SKILL.md) |
 | 想法还很模糊，需要先把意图和需求探清楚 | [`01-discover/brainstorming`](01-discover/brainstorming/SKILL.md) |
@@ -102,7 +102,7 @@
 
 | 技能 | 别名 / 备注 | 触发场景 |
 | --- | --- | --- |
-| [`01-discover/analyze-prebuild-needs`](01-discover/analyze-prebuild-needs/SKILL.md) | [报告模板](01-discover/analyze-prebuild-needs/references/kickoff-report.md) · [底座检索与核验手册](01-discover/analyze-prebuild-needs/references/foundation-research.md) | 系统立项四步确认，先判断品类和搜开源候选，再拆解能力、对照底座、沉淀方案 |
+| [`01-discover/product-kickoff`](01-discover/product-kickoff/SKILL.md) | [报告模板](01-discover/product-kickoff/references/kickoff-report.md) · [原型评审规范](01-discover/product-kickoff/references/prototype-review.md) | 系统立项四阶段确认、开源底座检索与核验、编写 PRD、需求转 Web / APP / H5 交互原型 |
 | [`01-discover/pain-point-discovery`](01-discover/pain-point-discovery/SKILL.md) | **新增** | 判断痛点真伪、设计访谈、承诺阶梯、礼宾测试、写失败判据 |
 | [`01-discover/brainstorming`](01-discover/brainstorming/SKILL.md) | `brainstorming` | 任何创造性工作之前，先探清意图、需求与设计 |
 | [`01-discover/project-planner`](01-discover/project-planner/SKILL.md) | 市场 slug `project-planner` | 「提个 bug」「我有个想法」「规划这个功能」、大功能拆阶段 |
@@ -122,7 +122,7 @@
 
 | 技能 | 别名 / 备注 | 触发场景 |
 | --- | --- | --- |
-| [`03-build/evaluate-feature-value`](03-build/evaluate-feature-value/SKILL.md) | 与 `01-discover/analyze-prebuild-needs` 互为上下游 | 功能级投入决策：写价值假设与对照方案、算增量效益与持续成本、设计最小验证、做 / 先验证 / 改用简方案 / 暂缓 |
+| [`03-build/evaluate-feature-value`](03-build/evaluate-feature-value/SKILL.md) | 与 `01-discover/product-kickoff` 互为上下游 | 功能级投入决策：写价值假设与对照方案、算增量效益与持续成本、设计最小验证、做 / 先验证 / 改用简方案 / 暂缓 |
 | [`03-build/mvp-scoping`](03-build/mvp-scoping/SKILL.md) | **新增** | 砍范围、假设排序、写验收阈值、纠正「先开发后验证」 |
 | [`03-build/test-driven-development`](03-build/test-driven-development/SKILL.md) | `test-driven-development` | 写实现代码之前 |
 | [`03-build/executing-plans`](03-build/executing-plans/SKILL.md) | `executing-plans` | 带评审检查点地执行成文计划 |
@@ -173,7 +173,7 @@
 ### 剧本 A：从零做一个新产品
 
 ```
-01-discover/analyze-prebuild-needs    系统级：还原业务问题、一期范围、底座复用、开工建议
+01-discover/product-kickoff    系统级：还原业务问题、一期范围、底座复用、开工建议
         ↓
 01-discover/pain-point-discovery      先证明痛是真的、有人会付钱
         ↓
